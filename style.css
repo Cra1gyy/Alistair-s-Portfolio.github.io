@@ -1,0 +1,395 @@
+body {
+    margin: 0px;
+}
+
+* {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+    z-index: 1;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    color: gray;
+    position: fixed;
+    background-color: white;
+    border-bottom: 2px solid rgb(0, 0, 21);
+    opacity: 0.9;
+}
+
+header h1 {
+    padding-right: 50px;
+    text-transform: uppercase;
+}
+
+header ul {
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 50px;
+}
+
+header li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.alistair_link a {
+    color: grey;
+    text-decoration: none;
+}
+
+.nav a {
+    color: grey;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.about {
+    text-align: center;
+    display: inline-flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    padding-top: 100px;
+}
+
+.about img {
+    border-radius: 25%;
+}
+
+.about_content {
+    width: 40%;
+    padding-right: 30px;
+}
+
+.about_content p {
+    width: 90%;
+    line-height: 1.5rem;
+}
+
+.skill_title {
+    width: 100%;
+    color: grey;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.html {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+    align-items: center;
+    color: grey;
+}
+
+.html p {
+    text-align: center;
+    display: none;
+    width: 35%;
+    padding-left: 30px;
+    line-height: 1.5rem;
+}
+
+.css {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+    align-items: center;
+    color: grey;
+}
+
+.css p {
+    text-align: center;
+    display: none;
+    width: 35%;
+    padding-left: 30px;
+    line-height: 1.5rem;
+}
+
+.javascript {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+    align-items: center;
+    color: grey;
+}
+
+.javascript p {
+    text-align: center;
+    display: none;
+    width: 35%;
+    padding-left: 30px;
+    line-height: 1.5rem;
+}
+
+.github {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+    align-items: center;
+    color: grey;
+}
+
+.github p {
+    text-align: center;
+    display: none;
+    width: 35%;
+    padding-left: 30px;
+    line-height: 1.5rem;
+}
+
+.git {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+    align-items: center;
+    color: grey;
+}
+
+.git p {
+    text-align: center;
+    display: none;
+    width: 35%;
+    padding-left: 30px;
+    line-height: 1.5rem;
+}
+
+.projects {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.projects_section{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin: 100px;
+    text-align: center;
+    background-color: rgb(0, 0, 21);
+    width: 55%;
+    color: whitesmoke;
+    border-radius: 3px;
+}
+
+.random_title {
+    width: 40%;
+    padding-right: 20px;
+}
+
+.random_sentence{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.random_sentence a{
+    margin-left: 5%;
+}
+
+.random_sentence img{
+    border-radius: 15px;
+}
+
+.testsite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.test_title {
+    width: 40%;
+    padding-right: 20px;
+}
+
+.testsite img{
+    border-radius: 15px;
+}
+
+.testsite a{
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.contact_info {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 21);
+    width: 100%;
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact_nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.contact_nav li {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.contact_nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+.contact_nav a:hover {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    
+    .projects_section {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .html p {
+        width: 60%;
+    }
+
+    .css p {
+        width: 60%;
+    }
+
+    .javascript p {
+        width: 60%;
+    }
+
+    .github p {
+        width: 60%;
+    }
+
+    .git p {
+        width: 60%;
+    }
+}
+
+
+
+@media only screen and (max-width: 850px) {
+
+    .about {
+        display: block;
+        width: 100%;
+        margin-right: 30px;
+    }
+
+    .about_content {
+        width: 100%;
+    }
+
+    .about_content p {
+        width: 100%;
+    }
+
+    .html p {
+        width: 60%;
+    }
+
+    .css p {
+        width: 60%;
+    }
+
+    .javascript p {
+        width: 60%;
+    }
+
+    .github p {
+        width: 60%;
+    }
+
+    .git p {
+        width: 60%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 750px) {
+
+    header h1 {
+        padding-right: 0px;
+    }
+
+    header ul {
+        padding-left: 10px;
+    }
+
+    .html p {
+        width: 60%;
+    }
+
+    .css p {
+        width: 60%;
+    }
+
+    .javascript p {
+        width: 60%;
+    }
+
+    .github p {
+        width: 60%;
+    }
+
+    .git p {
+        width: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    
+    header {
+        display: inline;
+        text-align: center;
+    }
+
+    .about {
+        padding-top: 125px;
+    }
+
+    header h1 {
+        margin-bottom: 0px;
+    }
+
+    .contact_nav li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
