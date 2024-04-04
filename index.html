@@ -1,152 +1,116 @@
 <!DOCTYPE html>
-
-
 <html>
-
-    <head>
-        <title>Alistair's Portfolio Website</title>
+    
+    <header>
+        <title>This is a test site!</title>
         <link href="./style.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+    </header>
 
     <body>
-        <header>
-            <h1 class="alistair_link"><a href="#alistair">Alistair Craig</a></h1>
-            
-            <ul class="nav">
-                <li><a href="#skill_link">Skills</a></li>
-                <li><a href="#project_link">Projects</a></li>
-                <li><a href="#contact_link">Contact</a></li>
+
+        <div class="heading" id="heading">
+            <h1>Test Webpage!</h1>
+            <h4>This is a site to test stuff!</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="Contact">Contact</a></li>
             </ul>
-        </header>
+        </div>
 
-        <section class="about" id="alistair">
+        <div class="mainbody">
+
+            <div class="main"> 
+                
+                <h2>A Cheeky Form!</h2>
+
+                
+
+                    <div class="form1">
+                        <form action="index.html" method="post">
+
+                            <label for="name">Name :</label>
+                            <input type="text" id="name">
+
+                        <br>
+                        <br>
+
+                            <label for="age">Age :</label>
+                            <input type="number" id="age">
+
+                        <br>
+                        <br>
+
+                            <label for="position">Occupation? :</label>
+                            <input id="position" type="text">
+
+                        <br>
+                        <br>
+
+                            <label for="horny">How much? :</label>
+                            <input id="horny" type="range" min="0" max="100" step="0.5">
+                    
+                        <br>
+                        <br>
+
+                            <p>What is your favourite food :</p>
+                            
+                        <br>
+
+                            <label for="clothing">Pizza</label>
+                            <input id="clothing" type="checkbox">
+                        <br>
+                            <label for="clothing">Burger</label>
+                            <input id="clothing" type="checkbox">
+                        <br>
+                            <label for="clothing">Pasta</label>
+                            <input id="clothing" type="checkbox">
+                        <br>
+                        <br>
+                            <input type="submit" id="subbutton">
+                        
+                        </form>
+
+                    </div>
+
+            </div>
+
+        </div>
+    
+        <div class="img_rotate">
+
+            <h2>Rotate The Image!</h2>
+
+            <img src="images\MVCcnbD.avif" height="170" width="250" id="image_rotate">
+
+            <form>
+                <input type="button" value="Rotate Left" id="rotate_left">
+                <input type="button" value="Center" id="center">
+                <input type="button" value="Rotate Right" id="rotate_right">
+            </form>
+        </div>
+
+
+        <div class="about" id="about">
+
+            <div class="about_title">
+                <h2>About Section!</h2>
+            </div>
+
             <div class="about_content">
-                <h2>About Me:</h2>
-                <p> 
-                    Hi. My name is Alistair and I am passionate and self-motivated to take on the challenge of becoming a software and
-                    web developer. Through comprehensive online courses, I have laid a strong foundation of
-                    knowledge and am eager to use it to launch myself into a professional career, where I can
-                    continue to grow and learn under the guidance of seasoned professionals.
-                    <br>
-                    <br>
-                    Everything I have learn't has been taught through online courses like Codecademy's Full stack
-                    enginner course, or through my own self study.
+                <p id="about_content_p">
+                    It has been seven hundred years since mankind colonized other planets. The powerful ruling class of humans has installed a rigid, color-based social hierarchy where the physically superior Golds at the top rule with an iron fist. 
+                    Sixteen-year-old Darrow is a Red, a class of workers who toil beneath the surface of Mars mining helium-3 to terraform the planet. He and his wife Eo are captured after entering a forbidden area and are arrested.
                 </p>
             </div>
 
-            <div class="about_img">
-                <img src="Images\IMG20230323133545.jpg" alt="A photo of Alistair" height="300" width="275">
+            <div class="about_read_more">
+                <h4 id="read_more_button">Read More</h4>
             </div>
-        </section>
-
-        <section class="skills">
-
-            <div class="skill_title">
-                <h2 id="skill_link">SKILLS</h2>
-            </div>
-
-            <div class="html">
-                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><title>HTML5</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
-                <p>
-                    Using HTML as the skeleton of my web pages, I have been able to build a strong 
-                    comprehension of the language and how to use it to meet my needs. I able to 
-                    use HTML in a sematic way, along with deploying the use of different tags to lay 
-                    the foundation of a well structured website.
-                </p> 
-            </div>
-
-            <div class="css">
-                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><title>CSS3</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg>
-                <p>
-                    I am proficient in the language CSS. I thoroughly enjoy transforming
-                    static HTML into a sleek and professional design that will improve the user experiance,
-                    using features like flexbox and grid to create interesting layouts which can be responsive 
-                    and effective. 
-                </p>
-            </div>
-
-            <div class="javascript">
-                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><title>JavaScript</title><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
-                <p>
-                    Creating interactive websites using JavaScript is exreamaly rewarding when it functions
-                    and enhances the websites performance. I have used the language to create a fantastic user experiance
-                    for example, using DOM manipulation to modify the structure and style of the web page, allowing for me
-                    to dynamically alter the content and appearance of a webpage.
-                </p>
-            </div>
-
-            <div class="github">
-                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                <p>
-                    Github has been a fantastic tool to use that has allowed me to test and deploy different websites.
-                    I have created repositories that have allowed me to implement the knowledge that I have
-                    soaked up through my studies and use it practically.
-                </p>
-            </div>
-
-            <div class="git">
-                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><title>Git</title><path d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"/></svg>
-                <p>
-                    I have used Git throughout most of my projects, using  it to commit changes that I have
-                    made to my work and test changes on different branches of my project. Additionally, I have used Git to review
-                    the status of my work and comment on the changes that I will be implementing into my software.
-                </p>
-            </div>
-        </section>
-
-        <section class="projects">
-            <div class="projects_section" id="project_link">
-
-                <h2>Projects</h2>
-
-                <div class="random_sentence">
-                    <div class="random_title">
-                        <h3>Random Sentence Generator</h3>
-
-                        <p>
-                            This was a very simply project that I completed within my Codecademy course, this requiered
-                            me to have  three different pieces of data that would randomly change to form a sentence.
-                            I decided to create one that would create a God and their power.
-                        </p>
-                    </div>
-
-                    <a href="https://github.com/Cra1gyy/randomsentence"><img src="Images\Screenshot 2024-04-02 113342.png" alt="Image of project code" height="200" width="200"></a>
-
-                </div>
-
-                <div class="testsite">
-                    <div class="test_title">
-                        <h3>Testing Website</h3>
-
-                        <p>
-                            This was a project that I completed in my own time in order to strengthen my
-                            understanding of how HTML, CSS and JavaScript. These all came together to create a functional
-                            website. It was a fun side project to boost my confidence in my abilities.
-                        </p>
-                    </div>
-
-                    <a href="https://cra1gyy.github.io./"><img src="Images\Screenshot 2024-04-02 143256.png" alt="Image of project code" height="200" width="200"></a>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="contact_info">
-            
-            <ul class="contact_nav" id="contact_link">
-                <li><a href="mailto:[alistaircraig393@gmail.com]">EMAIL</a></li>
-                <li><a href="https://github.com/Cra1gyy?tab=overview&from=2024-04-01&to=2024-04-02">GITHUB</a></li>
-                <li><a href="https://www.linkedin.com/in/alistair-craig-a438b3240/">LINKEDIN</a></li>
-            </ul> 
-        </section>
-
-
-        <script src="./style.js"></script>
+        </div>
+        
 
     </body>
 
-    
-
+    <script src="./script.js"></script>
 </html>
-
