@@ -98,7 +98,7 @@ let paragraphChangeHTMLClick = () => {
     document.querySelector('.html p').style.display = 'block';
 }
 
-boxDiv1.addEventListener('mousedown', paragraphChangeHTMLClick);
+boxDiv1.addEventListener('touched', paragraphChangeHTMLClick);
  
 
 
@@ -106,7 +106,7 @@ let paragraphChangeCSSClick = () => {
     document.querySelector('.css p').style.display = 'block';
 }
 
-boxDiv2.addEventListener('mousedown', paragraphChangeCSSClick);
+boxDiv2.addEventListener('touched', paragraphChangeCSSClick);
 
 
 
@@ -114,7 +114,7 @@ let paragraphChangejavascriptClick = () => {
     document.querySelector('.javascript p').style.display = 'block';
 }
 
-boxDiv3.addEventListener('mousedown', paragraphChangejavascriptClick);
+boxDiv3.addEventListener('touched', paragraphChangejavascriptClick);
 
 
 
@@ -122,7 +122,7 @@ let paragraphChangegithubClick = () => {
     document.querySelector('.github p').style.display = 'block';
 }
 
-boxDiv4.addEventListener('mousedown', paragraphChangegithubClick);
+boxDiv4.addEventListener('touched', paragraphChangegithubClick);
 
 
 
@@ -130,48 +130,6 @@ let paragraphChangegitClick = () => {
     document.querySelector('.git p').style.display = 'block';
 }
 
-boxDiv5.addEventListener('mousedown', paragraphChangegitClick);
+boxDiv5.addEventListener('touched', paragraphChangegitClick);
 
 
-
-// This will be used for phones so that they can close the opened skills section 
-
-
-
-let paragraphChangeHTMLNoneClick = () => {
-    document.querySelector('.html p').style.display = 'none';
-}
-
-boxDiv1.addEventListener('mouseup', paragraphChangeHTMLNoneClick);
- 
-
-
-let paragraphChangeCSSNoneClick = () => {
-    document.querySelector('.css p').style.display = 'none';
-}
-
-boxDiv2.addEventListener('mouseup', paragraphChangeCSSNoneClick);
-
-
-
-let paragraphChangejavascriptNoneClick = () => {
-    document.querySelector('.javascript p').style.display = 'none';
-}
-
-boxDiv3.addEventListener('mouseup', paragraphChangejavascriptNoneClick);
-
-
-
-let paragraphChangegithubNoneClick = () => {
-    document.querySelector('.github p').style.display = 'none';
-}
-
-boxDiv4.addEventListener('mouseup', paragraphChangegithubNoneClick);
-
-
-
-let paragraphChangegitNoneClick = () => {
-    document.querySelector('.git p').style.display = 'none';
-}
-
-boxDiv5.addEventListener('mouseup', paragraphChangegitNoneClick);

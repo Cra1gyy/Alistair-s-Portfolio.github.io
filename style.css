@@ -295,6 +295,11 @@ header li {
     .git p {
         width: 60%;
     }
+
+    .contact_nav li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 
