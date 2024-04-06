@@ -73,6 +73,11 @@ header li {
     padding-right: 30px;
 }
 
+.about_content h2 {
+    position: relative;
+    right: 5%;
+}
+
 .about_content p {
     width: 90%;
     line-height: 1.5rem;
@@ -313,6 +318,10 @@ header li {
 
     .about_content {
         width: 100%;
+    }
+
+    .about_content h2 {
+        right: 0px;
     }
 
     .about_content p {
